@@ -10,6 +10,8 @@ This Project is about fetching Data from Sap Hana Cloud To Big Query Using Apach
 <img src ="https://cxl.com/wp-content/uploads/2019/10/google-bigquery-logo-1.png" width="170" height="100" alt="Google Big Query"/> &emsp;
 <img src ="https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png" width="170" height="100" alt="Python"/> &emsp;
 
+##Architecture Diagram
+
 ## Installation Steps
 1.For running Dataflow We need to install Java Jdk 8 on the master node. FOr that we are making use of GCS Bucket to hold the JDk 8 Package and installing the dependency at run time on the master Node.<br>
 2.We are making use of Setup.py file to pass on the list of all the dependency that needs to be installed at run time on the worker nodes.
