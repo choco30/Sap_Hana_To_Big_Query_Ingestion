@@ -10,7 +10,7 @@ This Project is about fetching Data from Sap Hana Cloud To Big Query Using Apach
 <img src ="https://cxl.com/wp-content/uploads/2019/10/google-bigquery-logo-1.png" width="170" height="100" alt="Google Big Query"/> &emsp;
 <img src ="https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png" width="170" height="100" alt="Python"/> &emsp;
 
-##Architecture Diagram
+## Architecture Diagram
 
 <img src ="https://github.com/choco30/Sap_Hana_To_Big_Query_Ingestion/blob/main/SAP%20To%20Big%20Query%20architecture%20Diagram.png" width="900" height="900" alt="Python"/> &emsp;
 
