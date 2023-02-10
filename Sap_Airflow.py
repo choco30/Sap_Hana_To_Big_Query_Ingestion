@@ -73,5 +73,5 @@ start_dataflow_job=BashOperator(
     task_id=table+"_start_dataflow_job",
     bash_command='''job_date=$(date '+%Y-%m-%d-%H-%M-%S'); python3 /home/airflow/gcs/dags/sql_server_to_gcs.py --runner DataflowRunner --project project_name --region asia-south1 --temp_location gs://bucket-name/temp --network  --max_num_workers 5 --job_name {5}-$job_date --worker_machine_type {7} --service_account_email  service_account-name --setup_file /home/airflow/gcs/dags/setup.py --df_bucket bucket_name '''
     dag=dag)
-
+ 
 DATE_FUNCTION>>start_dataflow_job>>Email_notification
