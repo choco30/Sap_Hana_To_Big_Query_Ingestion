@@ -1,8 +1,8 @@
 # Sap Hana TO Big Query
 ## About
-This Project is about fetching Data from Sap Hana Cloud To Big Query Using 
+This Project is about fetching Data from Sap Hana Cloud To Big Query Using Apache Beam using Gcp serverless Etl solution i.e. Dataflow as a back end engine to extract the data from the source. We are orchestrating the entire workflow using GCP Composer which is the managed version of Apache Airflow. We are Also Using GCP Secret Manger to Store And Fetch the Sap Hana Credentials At Run Time.  
 ## Toolbox 🧰
-<img src="https://cdn.worldvectorlogo.com/logos/python-5.svg" width="50" height="50" alt="Python"/> &emsp; <img src="https://cdn.worldvectorlogo.com/logos/apache-spark-5.svg" width="70" alt="Apache Spark" height="70"/>
+<img src="https://www.yash.com/wp-content/uploads/2017/12/sap_hana_cloud.png" width="50" height="50" alt="Python"/> &emsp; <img src="https://cdn.worldvectorlogo.com/logos/apache-spark-5.svg" width="70" alt="Apache Spark" height="70"/>
 &emsp; <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/apachekafka/apachekafka-original-wordmark.svg" width ="90" height="75" alt="Apache Kafka"/>
 &emsp;<img src ="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/mongodb/mongodb-original-wordmark.svg" width="70" height="70" alt="Mongo Db"/>
 
