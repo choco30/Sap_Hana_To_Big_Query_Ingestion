@@ -7,6 +7,8 @@ This Project is about fetching Data from Sap Hana Cloud To Big Query Using Apach
 &emsp;<img src ="https://cloudzone.io/wp-content/uploads/2021/06/google-cloud-composer.jpeg" width="200" height="70" alt="GCP COMPOSER"/> &emsp;
 <img src ="https://i.ytimg.com/vi/s6ytxB0YSR0/mqdefault.jpg" width="200" height="70" alt="Secret Manager"/> &emsp;
 <img src ="https://marketplace.workiva.com/sites/marketplace/files/images/logos/google-cloud-storage-logo-16-7-en.svg" width="200" height="100" alt="Google Cloud Storage"/> &emsp;
+<img src ="https://marketplace.workiva.com/sites/marketplace/files/images/logos/google-cloud-storage-logo-16-7-en.svg" width="200" height="100" alt="Google Big Query"/> &emsp;
+<img src ="https://marketplace.workiva.com/sites/marketplace/files/images/logos/google-cloud-storage-logo-16-7-en.svg" width="200" height="100" alt="Python"/> &emsp;
 
 ## Installation Steps
 1.First we need to install Python(3.7) and java(jdk 8) On the machine for this projet to work appropiately.<br>
