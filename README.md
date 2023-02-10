@@ -5,8 +5,8 @@ This Project is about fetching Data from Sap Hana Cloud To Big Query Using Apach
 <img src="https://www.yash.com/wp-content/uploads/2017/12/sap_hana_cloud.png" width="200" height="70" alt="SAP HANA"/> &emsp; <img src="https://lh6.googleusercontent.com/1MICxjbrbRPtEnzE54g2shaMRD2RocCIcuSOrqwaqryObCR6IrsXNb3Sd5MjBBwmoLeVcgVu_SE3vw-IbRA24SFhH4IT1xppVuuNGodDtFEykgD0Cw1vB2jITTsOgBNHvWfw27icmMs30SYgWQ" width="200" alt="GCP DTAFLOW" height="70"/>
 &emsp; <img src="https://miro.medium.com/max/600/1*HEzofakm1-c4c_Qn4zjmnQ.jpeg" width ="200" height="75" alt="Apache Beam"/>
 &emsp;<img src ="https://cloudzone.io/wp-content/uploads/2021/06/google-cloud-composer.jpeg" width="200" height="70" alt="GCP COMPOSER"/> &emsp;
-<img src ="https://i.ytimg.com/vi/s6ytxB0YSR0/mqdefault.jpg" width="200" height="70" alt="Secret Manager"/> &emsp;
-<img src ="https://marketplace.workiva.com/sites/marketplace/files/images/logos/google-cloud-storage-logo-16-7-en.svg" width="200" height="100" alt="Google Cloud Storage"/> &emsp;
+<img src ="https://i.ytimg.com/vi/s6ytxB0YSR0/mqdefault.jpg" width="170" height="70" alt="Secret Manager"/> &emsp;
+<img src ="https://marketplace.workiva.com/sites/marketplace/files/images/logos/google-cloud-storage-logo-16-7-en.svg" width="170" height="100" alt="Google Cloud Storage"/> &emsp;
 <img src ="https://cxl.com/wp-content/uploads/2019/10/google-bigquery-logo-1.png" width="170" height="100" alt="Google Big Query"/> &emsp;
 <img src ="https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png" width="170" height="100" alt="Python"/> &emsp;
 
