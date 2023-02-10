@@ -11,22 +11,15 @@ This Project is about fetching Data from Sap Hana Cloud To Big Query Using Apach
 <img src ="https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png" width="170" height="100" alt="Python"/> &emsp;
 
 ## Installation Steps
-1.First we need to install Python(3.7) and java(jdk 8) On the machine for this projet to work appropiately.<br>
-2.After the successfull installation of above we need to download and <a href="https://kafka.apache.org/">Install Kafka</a> version 2.6.0 with scala version 2.12.<br>
-3.Now we Need to Download Apache Spark <a href ="https://spark.apache.org/downloads.html">Apache Spark </a>version 3.3.0 with hadoop version 3.3. Download the <a href="https://github.com/cdarlint/winutils">winUtils file</a> for hadoop version 3.<br>
-4.Now we need to setup the path in enviornment variables for spark and haddop.<br>
-5.Login to your mongo db atlas cluster and get the connection string to coonect to the database.<br>
+1.For running Dataflow We need to install Java Jdk 8 on the master node. FOr that we are making use of GCS Bucket to hold the JDk 8 Package and installing the dependency at run time on the master Node.<br>
+2.We are making use of Setup.py file to pass on the list of all the dependency that needs to be installed at run time on the worker nodes.
+A better production approach could be to make a custom container having all the required dependency installed and will be provided to the dataflow job at run time which will increases the job efficiency as need to install dependency seprately on each worker node during up scalling will vanquish. <br>
+3.For security purpose we are making use of Gcp Secret Manager to hold the SAP HANA Login Credentials and are fetching them at run time.<br>
+4.We are holding the Schema of Big Query Tables as json in GCS Bucket and fetching them at run time.<br>
+
 
 ## Deployment Process
-### starting up zookeeper server on local host 9092
-.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
-### starting up kafka broker
-.\bin\windows\kafka-server-start.bat .\config\server.properties
-### Creating kafka topic 
-.\bin\windows\kafka-topics.bat --create --topic <topic_name> --replication-factor 1 --partitions 1<br><br>
-Now you kafka Broker is up , you need to deploy the above code in any on the IDE of your choice and you will start seeing the data in your mongodb cluster 
+### Triggering dataflow Job
+For Running Dataflow Job we are making use of Gcp composer which is the maged version of apache airflow to orchestrate the entire ELT Pipeline which is scheduled dat daily midnight. we are making use of SMTPLIB library to sent the email notification in case of success and failuer of JOb./ 
 
-## Note
-1.Since the kafka and mongo db connector are not part of the default spark package you need to define the connectors as the configuration while creating the spark session as mentioned in the code.<br>
 
-2.While working with any IDE you need to import the spark and hadoop enviornment variable in the project structure under settings.
