@@ -24,4 +24,4 @@ A better production approach could be to make a custom container having all the 
 
 ## Deployment Process
 ### Triggering dataflow Job
-For Running Dataflow Job we are making use of Gcp composer which is the maged version of apache airflow to orchestrate the entire ELT Pipeline which is scheduled dat daily midnight. we are making use of SMTPLIB library to sent the email notification in case of success and failuer of JOb./ 
+For Running Dataflow Job we are making use of Gcp composer which is the maged version of apache airflow to orchestrate the entire ELT Pipeline which is scheduled dat daily midnight. we are making use of SMTPLIB library to sent the email notification in case of success and failuer of Job. 
