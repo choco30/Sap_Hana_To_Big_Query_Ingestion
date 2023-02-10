@@ -162,7 +162,7 @@ def run():
         global dataset_id 
         dataset_id = known_args.gcp_datasetid
         """
-
+       
         pipeline_options = PipelineOptions(pipeline_args)
         pcoll = beam.Pipeline(options=pipeline_options)
         #pipeline_options.view_as(SetupOptions).save_main_session = True
