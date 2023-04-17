@@ -57,7 +57,7 @@ DATE_FUNCTION=PythonOperator(
 
 def email_func(**kwargs):
     load_date=kwargs['load_date']
-    Notification_Email.failure_email(email_list,"KRNOSPBI_DAG_KRONOS_TABLES_EXTRACT",load_date)
+    Notification_Email.failure_email(email_list,"SAP_POC_TABLE_EXTRACT",load_date)
         
 Email_notification=PythonOperator(
 task_id="Email_notification",
