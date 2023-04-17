@@ -28,7 +28,7 @@ class setenv(beam.DoFn):
       def process(self,context,df_Bucket):
           #import jaydebeapi
           import pandas as pd
-          #src1='gs://gcp01-sb-krnospbi-dataflow-bucket/JAVA_JDK_AND_JAR'
+         
           src1='gs://'+df_Bucket+'/JAVA_JDK_AND_JAR'
           os.system('gsutil cp '+src1 + '/jdk-8u202-linux-x64.tar.gz /tmp/')
           logging.info('Jar copied to Instance..')
